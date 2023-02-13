@@ -6,12 +6,19 @@ a.skip{
   transition: left 1s ease-out;
   z-index: 1;
   /* Requirement 1 code here -- Do not remove this comment. */
-
-  
+  position: absolute;
+  top:-200px;
+  left:-400px;  
 }
 
 
   /* Requirement 2 code here -- Do not remove this comment. */
+  nav a:focus{
+    text-decoration-line: overline;
+    text-decoration-thickness: 10px;
+    text-decoration-color: yellow;
+    outline: none;
+  }
 
 
   /* Requirement 3 code here -- Do not remove this comment. */
