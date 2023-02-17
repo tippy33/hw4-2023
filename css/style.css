@@ -57,10 +57,17 @@ img{
   /* Requirement 8 code here -- Do not remove this comment. */
   .about, .about-image{
     grid-row: 1;
+    /* position: absolute; */
   }
-
-
-
+  .clients, .clients-image{
+    grid-row: 2;
+  }
+  .method, .method-image{
+    grid-row: 3;
+  }
+  .contact, .contact-image{
+    grid-row: 4;
+  }
 
 
 
@@ -69,9 +76,10 @@ img{
 
   /* Requirement 9 code here -- Do not remove this comment. */
   .text{
-    text-align: center;
+    justify-content: center;
+    /* text-align: center;  */
     max-height: 40%;
-    overflow: visible;
+    overflow: scroll;
   }
 
 
@@ -82,9 +90,9 @@ img{
   nav{
     padding-top: 35px;
     /* Requirement 10 code here -- Do not remove this comment. */
-    display: inline;
-    text-align:right
-
+    display: inline-block;
+    /* text-align: right; */
+    float: right;
   }
 
   nav li{
@@ -94,14 +102,16 @@ img{
 
   
   /* Requirement 11 code here -- Do not remove this comment. */
-
+a.skip:focus{
+  top:20px;
+}
 
 
   /* Requirement 12 code here -- Do not remove this comment. */
   .container{
     display: grid;
-    grid-template-columns: 50px, auto, 500px, auto, 50px;
-    grid-template-rows: 300px, 300px, 300px, 300px;
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: 300px 300px 300px 300px;
   }
 
 
