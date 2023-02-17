@@ -75,7 +75,7 @@ main img{
 
 
   /* Requirement 9 code here -- Do not remove this comment. */
-  .text{
+  main .text{
     align-self: center;
     max-height: 40%;
     overflow: scroll;
@@ -89,8 +89,8 @@ main img{
   nav{
     padding-top: 35px;
     /* Requirement 10 code here -- Do not remove this comment. */
-    display: inline-block;
-    /* text-align: right; */
+    /* display: inline-block; */
+    text-align: right;
     /* float: right; */
   }
 
@@ -125,8 +125,8 @@ a.skip:focus{
   }
 
   /* Requirement 15 code here -- Do not remove this comment. */
-  main img{
-    
+  .clients-image, .contact-image, .about-image, .method-image{
+    overflow: auto;
   }
 }
 
