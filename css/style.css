@@ -124,8 +124,7 @@ a.skip:focus{
 
   /* Requirement 15 code here -- Do not remove this comment. */
   .clients-image, .contact-image, .about-image, .method-image{
-    overflow: auto;
-    /* margin: 80px; */
+    overflow: hidden;
   }
 }
 
