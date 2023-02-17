@@ -99,9 +99,9 @@ main img{
 
   
   /* Requirement 11 code here -- Do not remove this comment. */
-a.skip:focus{
-  top:20px;
-}
+  a.skip:focus{
+    top:20px;
+  }
 
 
   /* Requirement 12 code here -- Do not remove this comment. */
