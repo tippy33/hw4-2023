@@ -77,7 +77,7 @@ main img{
   /* Requirement 9 code here -- Do not remove this comment. */
   main .text{
     align-self: center;
-    max-height: 40%;
+    max-height: 40vh;
     overflow: scroll;
   }
 
